@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<main className='flex justify-center items-center h-screen'>
 			<a
-				href='https://github.com/advanzzze'
+				href='https://github.com/advanzzzze'
 				className='
           absolute
           top-2/3
