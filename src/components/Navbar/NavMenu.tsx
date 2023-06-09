@@ -14,7 +14,7 @@ export default function NavMenu() {
 				<NavLink pathName={pathName} href='/' title='Home' />
 			</li>
 			<li>
-				<NavLink pathName={pathName} href='/teste' title='Em Breve' disabled />
+				<NavLink pathName={pathName} href='/em Breve' title='Em Breve' disabled />
 			</li>
 		</ul>
 	);
