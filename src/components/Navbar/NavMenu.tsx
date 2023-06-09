@@ -9,7 +9,7 @@ export default function NavMenu() {
 	const pathName = usePathname().split('/')[1];
 
 	return (
-		<ul className='grid grid-flow-col col gap-2'>
+		<ul className='grid grid-flow-col gap-2'>
 			<li>
 				<NavLink pathName={pathName} href='/' title='Home' />
 			</li>

@@ -29,8 +29,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang='en'>
 			<body
-				className={cn('h-screen w-screen pt-16 overflow-hidden', {
-					'bg-black text-white dark': isDarkTheme,
+				className={cn('h-screen w-screen overflow-hidden pt-16', {
+					'dark bg-black text-white': isDarkTheme,
 				})}>
 				<ScrollContext.Provider value={scrollPosition}>
 					<Navbar />
