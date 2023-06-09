@@ -2,11 +2,11 @@ import Link from 'next/link';
 
 export default function HomeHero() {
 	return (
-		<div className='py-32 flex flex-col items-center gap-12'>
-			<h1 className='w-2/3 text-6xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-br from-white to-slate-400 p-4'>
+		<div className='py-32 flex flex-col items-center gap-12 overflow-hidden'>
+			<h1 className='sm:w-2/3 text-4xl sm:text-6xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-br from-white to-slate-400 p-4'>
 				Advanzzze sua presença digital
 			</h1>
-			<div className='text-lg text-center text-slate-400'>
+			<div className='text-lg text-center px-2 text-slate-400'>
 				<p>
 					Desenvolvedores especializados em sites, aplicativos e designs, impulsionando seu sucesso digital.
 				</p>

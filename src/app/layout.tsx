@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang='en'>
 			<body
-				className={cn('h-screen w-screen pt-16 overflow-x-hidden overflow-y-hidden', {
+				className={cn('h-screen w-screen pt-16 overflow-hidden', {
 					'bg-black text-white dark': isDarkTheme,
 				})}>
 				<ScrollContext.Provider value={scrollPosition}>

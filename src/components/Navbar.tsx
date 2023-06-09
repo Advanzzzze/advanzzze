@@ -12,7 +12,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`fixed top-0 w-full flex flex-col justify-evenly px-44 transition-colors ${
+			className={`fixed top-0 w-full flex flex-col justify-evenly px-2 sm:px-44 transition-colors ${
 				scrollPosition > 50 ? 'bg-black/20' : 'bg-black/10'
 			} backdrop-blur-md select-none`}>
 			<div className='w-full h-14 flex justify-between items-center py-2'>
@@ -22,7 +22,7 @@ export default function Navbar() {
 					</div>
 					<p className='text-xl font-semibold'>Advanzzze</p>
 				</Link>
-				<div className='absolute left-1/2 -translate-x-1/2 h-full flex items-center'>
+				<div className='absolute max-sm:hidden left-1/2 -translate-x-1/2 h-full flex items-center'>
 					<NavMenu />
 				</div>
 				<div className='h-full flex justify-end items-center'></div>
