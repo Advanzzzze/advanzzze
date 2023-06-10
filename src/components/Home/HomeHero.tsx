@@ -15,7 +15,7 @@ export default function HomeHero() {
 			<Link
 				href={'https://www.instagram.com/advanzzze/'}
 				target='_blank'
-				className='rounded-full bg-gradient-to-br from-adv-purple-300 from-10% via-adv-blue-300 to-adv-orange-300 to-90% bg-[length:100px_70px] px-4 py-2 transition-all duration-300 hover:bg-right-bottom'>
+				className='rounded-full bg-gradient-to-br from-adv-blue-300 via-adv-purple-300 to-adv-orange-300 bg-[length:120px_80px] px-4 py-2 transition-all duration-300 hover:bg-right-bottom'>
 				Contatar
 			</Link>
 		</div>
