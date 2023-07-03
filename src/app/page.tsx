@@ -1,11 +1,6 @@
 import BlurSpot from '@/components/BlurSpot';
 import HomeHero from '@/components/Home/HomeHero';
-
-export const metadata = {
-	title: 'Advanzzze',
-	description:
-		'Desenvolvedores especializados em sites, aplicativos e designs, impulsionando seu sucesso digital. Junte-se a nós e avance para o próximo nível.',
-};
+import type { Metadata } from 'next';
 
 export default function Home() {
 	return (
